@@ -25,7 +25,7 @@ Possible responsive design concepts to demonstrate:
 
 Feel free to comment and give me advice to correct my mistakes and continue to improve. Thanks a lot in advance.
 
-Added just a few lines of script for the navigation bar.
+Added just a few lines of script for the navigation bar. It spreads 100% in mobile viewing.
 
 ## Sources
 - Google Images
