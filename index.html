@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanctuary TTRPG</title>
+  <link rel="stylesheet" href="./Resources/Css/styles.css">
+  <link rel="stylesheet" href="./Resources/Css/queries.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo"><img src="./Resources/Images/Sanctuary-Logo-nobg-mobile.png" alt="Group Logo">Sanctuary
+      TTRPG</a>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()" class="menu-svg-close"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+              height="40px" viewBox="0 -960 960 960" width="40px" fill="#e3e3e3" title="Close Menu">
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z">
+            </svg></a></li>
+        <li>
+          <img src="./Resources/Images/Sanctuary-Logo-nobg.png" alt="Group Logo">
+        </li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Games</a></li>
+        <li><a href="#">Events</a></li>
+        <li><button>Login</button></li>
+        <li><button>Register</button></li>
+      </ul>
+      <ul>
+        <li class="hideOnTablet"><a href="#about">About</a></li>
+        <li class="hideOnTablet"><a href="#games">Games</a></li>
+        <li class="hideOnTablet"><a href="#events">Events</a></li>
+        <li class="btns"><button class="btn-login">Login</button></li>
+        <li class="btns"><button class="btn-register">Register</button></li>
+        <li onclick="showSidebar()" class="menu-svg-open"><a href="#" title="Open menu" aria-label="Open menu"><svg
+              xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e3e3e3">
+              <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z">
+            </svg></a></li>
+      </ul>
+    </nav>
+    <div class="bg-image-container">
+      <img src="./Resources/Images/ffxiv-ttrpg-cover.jpg" alt="ffxiv">
+      <h1 class="group-title">Sanctuary<span class="group-description">Table Top Role-Playing Games</span>
+    </div>
+  </header>
+  <main>
+    <div class="grid-container">
+      <div class="grid-item-1">
+        <h1 id="about">About us</h1>
+      </div>
+      <div class="grid-item-2">
+        <h1 id="games">Games of the Week</h1>
+      </div>
+      <div class="grid-item-3">
+        <p> Welcome to <strong>Sanctuary TTRPG</strong>, the ultimate destination for tabletop role-playing game (TTRPG)
+          enthusiasts!
+          Whether you're a veteran adventurer or just starting your first campaign, our club provides the perfect space
+          to roll dice, tell stories, and meet other passionate players. Through our online booking system, you can
+          easily:<br><br class="second-space">
+          <strong class="join">Join a Table:</strong> Reserve a seat in one of our ongoing or scheduled TTRPG sessions
+          and play
+          alongside new friends. Ideal for solo players looking to join a group.<br><br class="second-space">
+          <strong class="book">Book a Private Table:</strong> Bring your own party and secure a table for your group's
+          exclusive
+          session.<br><br class="second-space">
+          <strong class="ticket">Get Event Tickets:</strong> Stay up to date with our special events, themed nights,
+          tournaments, and
+          one-shots — and book your tickets directly through our site.<br><br class="second-space">
+          Our venue is designed to offer a welcoming, creative atmosphere with everything you need for an immersive
+          TTRPG experience — from custom terrain and miniatures to snacks and drinks for adventurers of all alignments.
+          <br><br class="second-space">
+          Join the community, explore new worlds, and let the dice decide your fate at <strong>Sanctuary
+            TTRPG</strong>.
+        </p>
+      </div>
+      <div class="grid-item-4">
+        <img src="./Resources/Images/DnD.jpg" alt="Dungeons&Dragons">
+      </div>
+      <div class="grid-item-5">
+        <img src="./Resources/Images/warhammer.jpg" alt="Warhammer">
+      </div>
+      <div class="grid-item-6">
+        <img src="./Resources/Images/CallOfCthullHu.jpg" alt="Call of Cthulhu">
+      </div>
+      <div class="grid-item-7">
+        <button class="btn-join">
+          <h1>Join</h1>
+        </button>
+      </div>
+      <div class="grid-item-8">
+        <button class="btn-join">
+          <h1>Join</h1>
+        </button>
+      </div>
+      <div class="grid-item-9">
+        <button class="btn-join">
+          <h1>Join</h1>
+        </button>
+      </div>
+      <div class="grid-item-10">
+        <button class="btn-book">
+          <h1>Book</h1>
+        </button>
+      </div>
+      <div class="grid-item-11">
+        <button class="btn-book">
+          <h1>Book</h1>
+        </button>
+      </div>
+      <div class="grid-item-12">
+        <button class="btn-book">
+          <h1>Book</h1>
+        </button>
+      </div>
+      <div class="grid-item-13">
+        <h1 id="events">Events</h1>
+        <div class="flex-container">
+          <div class="event-description">
+            <p><strong class="event-title">Dungeons & Dragons Night</strong><br><br>
+              At <strong class="strong">Sanctuary TTRPG</strong>, we believe tabletop roleplaying is more than just
+              rolling dice — it's
+              about connection, creativity, and shared moments of wonder. Join a table of fellow adventurers for an
+              exclusive evening of Dungeons & Dragons, guided by a skilled Dungeon Master who will weave your choices
+              into
+              a living tale of courage, mystery, and magic.<br>Whether you're a <strong class="strong">first-time
+                explorer</strong> or
+              a
+              <strong class="strong">battle-hardened veteran</strong>, this event is designed to welcome everyone.
+              You'll laugh,
+              strategize, and celebrate
+              every triumph together as your group faces the unexpected twists of fate that only D&D can deliver.
+            </p>
+          </div>
+          <div class="event-conditions">
+            <p><strong class="conditions-title">What Awaits You<br></strong><br><strong class="strong">A Cinematic
+                One-Shot
+                Adventure</strong> — Written specially for Sanctuary, designed to fit in one unforgettable
+              session.<br><strong class="strong">Professional Dungeon Masters</strong> — Expert storytellers who bring
+              worlds to life
+              with energy and creativity.<br>
+              <strong class="strong">Everything Provided</strong> — Dice, character sheets, miniatures, and all
+              materials needed to
+              jump straight into play and creativity.<br><strong class="strong">Welcoming Tables for All Levels</strong>
+              — From
+              curious beginners to seasoned players, every table is balanced for fun and teamwork.<br>
+              <strong class="strong">Immersive Atmosphere</strong> — Themed lighting, music, and decor to make Sanctuary
+              feel like
+              stepping into another realm.
+          </div>
+          <div class="location-container">
+            <div class="map">
+              <img src="./Resources/Images/Map.png" alt="location">
+            </div>
+            <div class="btn-ticket">
+              <button>Buy Ticket</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="contact-container">
+      <div class="footer-img">
+        <img src="./Resources/Images/Sanctuary-Logo-nobg.png" alt="logo-footer">
+      </div>
+      <p>customerservice@SanctuaryTTRPG.com<br>
+        1234 Adventure Lane, Gametown, GT 56789<br>
+        123-456-7890<br><br>
+        Copyright © 2025 Sanctuary TTRPG</p>
+    </div>
+  </footer>
+</body>
+
+<script>
+  function showSidebar() {
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+  }
+  function hideSidebar() {
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none'
+  }
+</script>
+
+</html>
