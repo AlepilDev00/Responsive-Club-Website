@@ -21,7 +21,7 @@ Possible responsive design concepts to demonstrate:
 
 ## My version
 
-Click here for my version!
+[Click here for my version!](https://alepildev00.github.io/Responsive-Club-Website/)
 
 Feel free to comment and give me advice to correct my mistakes and continue to improve. Thanks a lot in advance.
 
